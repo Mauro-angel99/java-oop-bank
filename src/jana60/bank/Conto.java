@@ -9,8 +9,7 @@ public class Conto {
 	public Conto(int numeroConto, String nomeProprietario) {
 		
 		this.numeroConto = numeroConto;
-		this.nomeProprietario = nomeProprietario;
-		
+		this.nomeProprietario = nomeProprietario;		
 		this.saldo = 0;
 	}
 
@@ -44,6 +43,8 @@ public class Conto {
 		saldo -= money;
 		return true;
 	}
+	
+	
 	
 	@Override
 	public String toString() {
